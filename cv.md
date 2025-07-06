@@ -36,11 +36,28 @@ I am a DevOps specialist with experience in cloud infrastructure and automation.
 
 - **Bash:** [The **Coach Ba** software is a Bash-based Client-Server testing environment](https://github.com/ikclouds/coach_bash)
 
+- **JavaScript** on [Codewars.com](https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript):
+
+```js
+/**
+ * Multiplies two numbers together
+ * @param {number} a - First number
+ * @param {number} b - Second number
+ * @returns {number} Product of a and b
+ */
+function multiply(a, b) {
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+    // https://www.jetbrains.com/help/webstorm/creating-jsdoc-comments.html
+    return a * b;
+}
+```
+
 ### Work Experience
 
-- **DevOps Engineer** at EPAM (1+ year)
+- **DevOps Engineer on Prod** at EPAM (1+ year)
   - Bash scripting, New Relic monitoring, Terraform deployment
   - AWS IAM / S3 / EC2 / EBS / VPC / RDS / CloudWatch / CloudTrail, Linux, Terraform, MySQL operations
+  - AWS EC2, Docker, MySQL, Jenkins CI/CD: Java Spring Boot, Node.js
   
 - **Linux Bash Course Trainer** for kids
   - Teaching programming fundamentals to children
