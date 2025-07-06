@@ -1,5 +1,7 @@
 # CV
 
+![cv-photo](cv.jpg)
+
 ## Yakiv Koliada
 
 ### Contact Information
