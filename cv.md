@@ -1,6 +1,6 @@
 # CV
 
-![cv-photo](cv.jpg)
+![cv-photo](./assets/images/cv.jpg)
 
 ## Yakiv Koliada
 
