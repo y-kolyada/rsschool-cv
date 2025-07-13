@@ -1,3 +1,4 @@
-# CV#1. Markdown & Git
+# CV#3. CV. Cross-Check
 
-- [My CV](https://y-kolyada.github.io/rsschool-cv/)
+- [My Markdown CV](https://y-kolyada.github.io/rsschool-cv/cv)
+- [My Web CV](https://y-kolyada.github.io/rsschool-cv/)
