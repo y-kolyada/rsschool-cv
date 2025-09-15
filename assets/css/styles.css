@@ -16,15 +16,20 @@ body {
 }
 
 header {
+    position: sticky;
     background-color: #d2b48c;
     margin: 0 auto;
     max-width: 1200px;
     color: white;
     padding: 1rem 0;
-    position: sticky;
     top: 0;
     z-index: 100;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* fix anchor navigation with sticky header */
+#about, #contacts, #skills, #projects, #experience, #education {
+    scroll-margin-top: 5rem;
 }
 
 nav {
@@ -200,10 +205,10 @@ main .container {
 }
 
 .main-content ul li::before {
+    position: fixed;
     color: #6750a4;
     content: '•';
     font-weight: bold;
-    position: absolute;
     left: -1rem;
 }
 
