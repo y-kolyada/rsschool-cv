@@ -15,8 +15,8 @@
 </head>
 
 <body>
-  <header>
-    <nav>
+  <header class="header">
+    <nav class="header__navigation">
       <div class="home">
         <span class="material-symbols-outlined" onclick="goHome()">home</span>
         <script>
@@ -25,15 +25,18 @@
           }
         </script>
       </div>
-      <div class="toc">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-        </ul>
+      <ul class="navigation__menu">
+        <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+        <li class="navigation__item"><a href="#contacts" class="navigation__link">Contacts</a></li>
+        <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
+        <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
+        <li class="navigation__item"><a href="#experience" class="navigation__link">Experience</a></li>
+        <li class="navigation__item"><a href="#education" class="navigation__link">Education</a></li>
+      </ul>
+      <div class="navigation__burger">
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
       </div>
     </nav>
   </header>
@@ -87,7 +90,7 @@
         <section class="languages">
           <h2>Languages</h2>
           <ul>
-            <li><mark>English</mark> : Intermediate</li>
+            <li><mark>English</mark> : Intermediate (B1+)</li>
           </ul>
         </section>
       </div>
@@ -130,7 +133,8 @@
             <p class="company">EPAM (2024 - Present)</p>
             <ul>
               <li>Bash scripting, New Relic monitoring, Terraform deployment</li>
-              <li>AWS IAM / S3 / EC2 / EBS / VPC / RDS / CloudWatch / CloudTrail, Linux, Terraform, MySQL operations</li>
+              <li>AWS IAM / S3 / EC2 / EBS / VPC / RDS / CloudWatch / CloudTrail, Linux, Terraform, MySQL operations
+              </li>
               <li>AWS EC2, Docker, MySQL, Git, Jenkins CI/CD: Java Spring Boot, Node.js</li>
               <li>HTML, CSS, JavaScript at a beginner level</li>
             </ul>
@@ -172,7 +176,8 @@ function multiply(a, b) {
           <article class="education-item">
             <h3>DevOps Student</h3>
             <p class="institution">EPAM Campus, DevOps Lab (2023 - 2024)</p>
-            <p>Coursework: AWS EC2, Jenkins, Docker, Java, Maven, Node.js, Linting, Unit tests, DevOps for Web Development</p>
+            <p>Coursework: AWS EC2, Jenkins, Docker, Java, Maven, Node.js, Linting, Unit tests, DevOps for Web
+              Development</p>
           </article>
           <article class="education-item">
             <h3>Specialist in enterprise economics</h3>
@@ -203,6 +208,8 @@ function multiply(a, b) {
       </a>
     </div>
   </footer>
+  <div class="page__overlay"></div>
+  <script src="./index.js"></script>
 </body>
 
 </html>
