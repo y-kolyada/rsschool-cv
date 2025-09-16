@@ -199,7 +199,6 @@ ul {
 }
 
 .sidebar ul li {
-    margin-bottom: 0.2rem;
     padding: 0.3rem 0.5rem;
     background-color: var(--primary-background-color);
     border-radius: 0px;
@@ -304,6 +303,36 @@ ul {
     border-radius: 2px;
     overflow-x: auto;
 }
+
+/* Highlight animations Start */
+
+@keyframes underlineAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.main-content h2.highlight,
+.sidebar h2.highlight {
+    position: relative;
+}
+
+.main-content h2.highlight::after,
+.sidebar h2.highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--accent-color);
+    animation: underlineAnimation 0.5s linear forwards;
+}
+
+/* Highlight animations End */
 
 /* Main Content End */
 
