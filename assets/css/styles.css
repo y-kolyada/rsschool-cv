@@ -264,16 +264,11 @@ ul {
 }
 
 .main-content ul li {
-    margin-bottom: 0.5rem;
-}
-
-.person-info {
-    margin-bottom: 1rem;
-    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 0.1rem;
 }
 
 .person-info h1 {
-    padding-top: 3rem;
+    padding-top: 2rem;
     margin-bottom: 0.5rem;
     font-size: 3rem;
     font-weight: 700;
@@ -282,8 +277,6 @@ ul {
 }
 
 .title {
-    margin-bottom: 0.5rem;
-    padding: 1rem 0;
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--secondary-text-color);
