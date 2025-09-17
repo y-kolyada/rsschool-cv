@@ -26,12 +26,12 @@
         </script>
       </div>
       <ul class="navigation__menu">
-        <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
-        <li class="navigation__item"><a href="#contacts" class="navigation__link">Contacts</a></li>
-        <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
-        <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
-        <li class="navigation__item"><a href="#experience" class="navigation__link">Experience</a></li>
-        <li class="navigation__item"><a href="#education" class="navigation__link">Education</a></li>
+        <li class="navigation__item"><a href="#about" class="navigation__link" tabindex="0">About</a></li>
+        <li class="navigation__item"><a href="#contacts" class="navigation__link" tabindex="0">Contacts</a></li>
+        <li class="navigation__item"><a href="#skills" class="navigation__link" tabindex="0">Skills</a></li>
+        <li class="navigation__item"><a href="#projects" class="navigation__link" tabindex="0">Projects</a></li>
+        <li class="navigation__item"><a href="#experience" class="navigation__link" tabindex="0">Experience</a></li>
+        <li class="navigation__item"><a href="#education" class="navigation__link" tabindex="0">Education</a></li>
       </ul>
       <div class="navigation__burger">
         <div class="burger__line"></div>
@@ -45,25 +45,25 @@
     <div class="container">
       <div class="sidebar">
         <div class="profile-photo">
-          <a href="#about"><img src="./assets/images/cv.jpg" alt="IK avatar"></a>
+          <a href="#about"><img src="./assets/images/cv.jpg" alt="IK avatar" tabindex="1"></a>
         </div>
 
         <section>
-          <h2 id="contacts">Contacts</h2>
+          <h2 id="contacts" tabindex="2">Contacts</h2>
           <ul>
             <li><mark>Email</mark> : <a href="mailto:yakov.kolyada@gmail.com"
-                target="_blank">yakov.kolyada@gmail.com</a></li>
-            <li><mark>GitHub</mark> : <a href="https://github.com/y-kolyada" target="_blank">@y-kolyada</a></li>
+                target="_blank" tabindex="2">yakov.kolyada@gmail.com</a></li>
+            <li><mark>GitHub</mark> : <a href="https://github.com/y-kolyada" target="_blank" tabindex="2">@y-kolyada</a></li>
             <li><mark>LinkedIn</mark> : <a href="https://www.linkedin.com/in/yakov-kolyada-0b3334269"
-                target="_blank">@yakov-kolyada-0b3334269</a></li>
-            <li><mark>Discord</mark> : <a href="https://discord.com/users/ikclouds" target="_blank">@ikclouds</a></li>
-            <li><mark>Telegram</mark> : <a href="https://t.me/yakov_kolyada" target="_blank">@yakov_kolyada</a></li>
+                target="_blank" tabindex="2">@yakov-kolyada-0b3334269</a></li>
+            <li><mark>Discord</mark> : <a href="https://discord.com/users/ikclouds" target="_blank" tabindex="2">@ikclouds</a></li>
+            <li><mark>Telegram</mark> : <a href="https://t.me/yakov_kolyada" target="_blank" tabindex="2">@yakov_kolyada</a></li>
             <li><mark>Location</mark> : Kharkiv, Ukraine</li>
           </ul>
         </section>
 
         <section>
-          <h2 id="skills">Skills</h2>
+          <h2 id="skills" tabindex="2">Skills</h2>
           <ul>
             <li><mark>Web</mark> : HTML5, CSS3, JavaScript</li>
             <li><mark>Languages</mark> : Python, Bash</li>
@@ -77,13 +77,13 @@
         </section>
 
         <section>
-          <h2 id="projects">Projects</h2>
+          <h2 id="projects" tabindex="2">Projects</h2>
           <ul>
-            <li><a href="https://ikclouds.github.io/not-fight-club/" target="_blank">Not Fight Club - JavaScript app</a>
+            <li><a href="https://ikclouds.github.io/not-fight-club/" target="_blank" tabindex="2">Not Fight Club - JavaScript app</a>
             </li>
-            <li><a href="https://github.com/ikclouds/coach_bash" target="_blank">Coach Bash - Bash app</a></li>
+            <li><a href="https://github.com/ikclouds/coach_bash" target="_blank" tabindex="2">Coach Bash - Bash app</a></li>
             <li><a href="https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript"
-                target="_blank">JavaScript on Codewars</a></li>
+                target="_blank" tabindex="2">JavaScript on Codewars</a></li>
           </ul>
         </section>
 
@@ -102,7 +102,7 @@
         </section>
 
         <section>
-          <h2 id="about">About Me</h2>
+          <h2 id="about" tabindex="3">About Me</h2>
           <p>I am a DevOps specialist with experience in cloud infrastructure and automation.</p>
         </section>
 
@@ -127,7 +127,7 @@
         </section>
 
         <section>
-          <h2 id="experience">Work Experience</h2>
+          <h2 id="experience" tabindex="3">Work Experience</h2>
           <article class="experience-item">
             <h3>DevOps Engineer on Prod</h3>
             <p class="company">EPAM (2024 - Present)</p>
@@ -166,15 +166,15 @@ function multiply(a, b) {
           <h2>Certificates</h2>
           <ul>
             <li><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/5b04da50de3e4b9b9de47feb7f746af4"
-                target="_blank">AWS Certified Solutions Architect - Associate</a></li>
+                target="_blank" tabindex="3">AWS Certified Solutions Architect - Associate</a></li>
             <li>AWS Certified Cloud Practitioner</li>
           </ul>
         </section>
 
         <section>
-          <h2 id="education">Education</h2>
+          <h2 id="education" tabindex="3">Education</h2>
           <article class="education-item">
-            <h3>DevOps Student</h3>
+            <h3>DevOps</h3>
             <p class="institution">EPAM Campus, DevOps Lab (2023 - 2024)</p>
             <p>Coursework: AWS EC2, Jenkins, Docker, Java, Maven, Node.js, Linting, Unit tests, DevOps for Web
               Development</p>

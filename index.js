@@ -81,7 +81,7 @@ function initHighlighting() {
     }
   }
 
-  window.addEventListener('scroll', removeHighlight);
+  // window.addEventListener('scroll', removeHighlight);
 
   // Add click listeners to nav links
   navLinks.forEach(link => {
