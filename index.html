@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Yakiv Koliada">
+  <meta name="description" content="CV, Curriculum Vitae, Yakiv Koliada">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yakov Kolyada - Web Developer CV</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__navigation">
+      <div class="home">
+        <span class="material-symbols-outlined" onclick="goHome()">home</span>
+        <script>
+          function goHome() {
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          }
+        </script>
+      </div>
+      <ul class="navigation__menu">
+        <li class="navigation__item"><a href="#about" class="navigation__link" tabindex="0">About</a></li>
+        <li class="navigation__item"><a href="#contacts" class="navigation__link" tabindex="0">Contacts</a></li>
+        <li class="navigation__item"><a href="#experience" class="navigation__link" tabindex="0">Experience</a></li>
+        <li class="navigation__item"><a href="#skills" class="navigation__link" tabindex="0">Skills</a></li>
+        <li class="navigation__item"><a href="#projects" class="navigation__link" tabindex="0">Projects</a></li>        
+        <li class="navigation__item"><a href="#education" class="navigation__link" tabindex="0">Education</a></li>
+      </ul>
+      <div class="navigation__burger">
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="sidebar">
+        <div class="profile-photo">
+          <a href="#about"><img src="./assets/images/cv.jpg" alt="IK avatar" tabindex="1"></a>
+        </div>
+
+        <section>
+          <h2 id="contacts" tabindex="2">Contacts</h2>
+          <ul>
+            <li><mark>Email</mark> : <a href="mailto:yakov.kolyada@gmail.com"
+                target="_blank" tabindex="2">yakov.kolyada@gmail.com</a></li>
+            <li><mark>GitHub</mark> : <a href="https://github.com/y-kolyada" target="_blank" tabindex="2">@y-kolyada</a></li>
+            <li><mark>LinkedIn</mark> : <a href="https://www.linkedin.com/in/yakov-kolyada-0b3334269"
+                target="_blank" tabindex="2">@yakov-kolyada-0b3334269</a></li>
+            <li><mark>Discord</mark> : <a href="https://discord.com/users/ikclouds" target="_blank" tabindex="2">@ikclouds</a></li>
+            <li><mark>Telegram</mark> : <a href="https://t.me/yakov_kolyada" target="_blank" tabindex="2">@yakov_kolyada</a></li>
+            <li><mark>Location</mark> : Kharkiv, Ukraine</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="skills" tabindex="2">Skills</h2>
+          <ul>
+            <li><mark>Web</mark> : HTML5, CSS3, JavaScript</li>
+            <li><mark>Languages</mark> : Python, Bash</li>
+            <li><mark>Technologies</mark> : Linux, Docker, Terraform, Ansible, Jenkins, SQL, MySQL, New Relic</li>
+            <li><mark>Clouds</mark> : AWS IAM / S3 / EC2 / EBS / VPC / RDS / CloudWatch / CloudTrail / Serverless /
+              CloudFormation</li>
+            <li><mark>VCS</mark> : Git, GitHub</li>
+            <li><mark>Methodologies</mark> : Agile, Kanban, DevOps</li>
+            <li><mark>Tools</mark> : VS Code</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="projects" tabindex="2">Projects</h2>
+          <ul>
+            <li><a href="https://ikclouds.github.io/not-fight-club/" target="_blank" tabindex="2">Not Fight Club - JavaScript app</a>
+            </li>
+            <li><a href="https://github.com/ikclouds/coach_bash" target="_blank" tabindex="2">Coach Bash - Bash app</a></li>
+            <li><a href="https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript"
+                target="_blank" tabindex="2">JavaScript on Codewars</a></li>
+          </ul>
+        </section>
+
+        <section class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li><mark>English</mark> : Intermediate (B1+)</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="main-content">
+        <section class="person-info">
+          <h1>Yakov Kolyada</h1>
+          <ul>
+            <li class="title">DevOps</li>
+            <li class="title">Frontend Developer, Student</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="about" tabindex="3">About Me</h2>
+          <p>I am a DevOps specialist with experience in cloud infrastructure and automation.</p>
+        </section>
+
+        <section class="goals">
+          <h2>Purpose</h2>
+          <p>Skill-up in creating and delivering web solutions. Develop a React web app for a quiz by the end of summer
+            2026.</p>
+        </section>
+
+        <section class="strengths">
+          <h2>Strengths</h2>
+          <ul>
+            <li>Goal-oriented</li>
+            <li>Responsible</li>
+            <li>Continuously growing</li>
+            <li>Problem-solving mindset</li>
+            <li>Team collaboration</li>
+            <li>Attention to details</li>
+            <li>Time management</li>
+            <li>Sociable</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="experience" tabindex="3">Work Experience</h2>
+          <article class="experience-item">
+            <h3>DevOps Engineer on Prod</h3>
+            <p class="company">EPAM (2024 - Present)</p>
+            <ul>
+              <li>Bash scripting, New Relic monitoring, Terraform deployment</li>
+              <li>AWS IAM / S3 / EC2 / EBS / VPC / RDS / CloudWatch / CloudTrail, Linux, Terraform, MySQL operations
+              </li>
+              <li>AWS EC2, Docker, MySQL, Git, Jenkins CI/CD: Java Spring Boot, Node.js</li>
+              <li>HTML, CSS, JavaScript at a beginner level</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <h3>Linux Bash Course Trainer for kids</h3>
+            <p class="company">EPAM e-KidsPAM (2025, run 21)</p>
+            <ul>
+              <li>Teaching Bash scripting fundamentals to children</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="code-example">
+          <h2>Code Example</h2>
+          <pre><code>// JavaScript
+/**
+ * Multiplies two numbers together
+ * @param {number} a - First number
+ * @param {number} b - Second number
+ * @returns {number} Product of a and b
+ */
+function multiply(a, b) {
+    return a * b;
+}</code></pre>
+        </section>
+
+        <section class="certificates">
+          <h2>Certificates</h2>
+          <ul>
+            <li><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/5b04da50de3e4b9b9de47feb7f746af4"
+                target="_blank" tabindex="3">AWS Certified Solutions Architect - Associate</a></li>
+            <li>AWS Certified Cloud Practitioner</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 id="education" tabindex="3">Education</h2>
+          <article class="education-item">
+            <h3>DevOps</h3>
+            <p class="institution">EPAM Campus, DevOps Lab (2023 - 2024)</p>
+            <p>Coursework: AWS EC2, Jenkins, Docker, Java, Maven, Node.js, Linting, Unit tests, DevOps for Web
+              Development</p>
+          </article>
+          <article class="education-item">
+            <h3>Specialist in enterprise economics</h3>
+            <p class="institution">Kharkiv National University of Economics</p>
+            <p>Interdisciplinary Institute for Advanced Studies</p>
+          </article>
+          <article class="education-item">
+            <h3>System Engineer, diploma with honor</h3>
+            <p class="institution">National Aerospace University "Kharkiv Aviation Institute"</p>
+            <p>Aircraft Control Systems</p>
+          </article>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; <span id="year" class="footer-year"></span></p>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+      <a href="https://github.com/y-kolyada" target="_blank">
+        <img src="./assets/icons/github-mark.svg" alt="y-koliada">
+      </a>
+      <a href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="./assets/icons/rs-school-logo.svg" alt="RS School logo">
+      </a>
+    </div>
+  </footer>
+  <div class="page__overlay"></div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
